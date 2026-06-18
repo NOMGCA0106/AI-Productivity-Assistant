@@ -94,6 +94,12 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
+      { name: "twitter:title", content: "ClassroomAI — Intermediate Phase Assistant" },
+      { name: "description", content: "AI-powered web app for Grades 4-6 educators to automate tasks and enhance classroom management." },
+      { property: "og:description", content: "AI-powered web app for Grades 4-6 educators to automate tasks and enhance classroom management." },
+      { name: "twitter:description", content: "AI-powered web app for Grades 4-6 educators to automate tasks and enhance classroom management." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/b5c339af-3a4b-4dda-a1c8-a6a3b259a197/id-preview-f7ef0b2f--648251e5-64fb-44bd-bd5e-862f3138f1ea.lovable.app-1781790065111.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/b5c339af-3a4b-4dda-a1c8-a6a3b259a197/id-preview-f7ef0b2f--648251e5-64fb-44bd-bd5e-862f3138f1ea.lovable.app-1781790065111.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
