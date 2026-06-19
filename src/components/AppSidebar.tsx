@@ -8,6 +8,7 @@ import {
   Settings,
   ShieldCheck,
   GraduationCap,
+  User,
 } from "lucide-react";
 import {
   Sidebar,
@@ -31,6 +32,7 @@ const tools = [
 ] as const;
 
 const system = [
+  { title: "Resume", url: "/resume", icon: User },
   { title: "Settings", url: "/settings", icon: Settings },
   { title: "Responsible AI", url: "/responsible-ai", icon: ShieldCheck },
 ] as const;
